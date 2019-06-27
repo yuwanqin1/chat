@@ -1,0 +1,40 @@
+<view class="container">
+
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='swiper'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+<!-- 标题 -->
+  <view class='header'>
+    <text class='tille'>菜单栏</text>
+    <text class='suntitle'>最火的电影---热映</text>
+  </view>
+
+<!-- 导航栏 -->
+<view class='menu'>
+    <navigator url='../list/list?type=test' class='navigator'>
+        <view class='menu-list'>
+          <text>正在售票</text>
+          <text decode='true'>&gt;</text>
+        </view>
+    </navigator>
+    <navigator url='../index/index?type=test' class='navigator'>
+        <view class='menu-list'>
+          <text>即将上映</text>
+          <text decode='true'>&gt;</text>
+        </view>
+    </navigator>
+    <navigator url='../index/index?type=test' class='navigator'>
+        <view class='menu-list'>
+          <text>正在热映</text>
+          <text decode='true'>&gt;</text>
+        </view>
+    </navigator>
+</view>
+</view>

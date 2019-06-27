@@ -1,0 +1,50 @@
+.swiper{
+  width: 750rpx;
+  height: 400rpx;
+}
+.slide-image{
+  width: 100%;
+}
+
+/*  */
+.header{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  width: 90%;
+  border-bottom: 1rpx solid #ddd;
+}
+.header .title{
+  font-size: 50rpx;
+}
+.header .suntitle{
+  font-size: 30rpx;
+  color: #ccc;
+  padding: 10rpx 0;
+}
+
+/*  */
+.menu{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.menu .navigator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.menu .navigator .menu-list{
+  background: #ddd;
+  margin-top: 20rpx;
+  padding:20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 2rpx;
+}

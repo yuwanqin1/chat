@@ -1,0 +1,5 @@
+<view>
+  <block>
+    <view> {{list[0].content}}</view>
+  </block>
+</view>

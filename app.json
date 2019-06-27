@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/borad/borad",
+    "pages/index/index",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "movie小电影",
+    "navigationBarTextStyle":"#fff"
+  }
+}
